@@ -1,0 +1,47 @@
+/*Большие девайсы (большие десктопы, < 1200px)*/
+@media only screen and (max-width: 1199.98px) {
+    .title {
+        height: 100vh;
+    }
+}
+
+/*Средние девайсы («таблетки», < 992px)*/
+@media only screen and (max-width: 991.98px) {
+    .title {
+        height: 50vh;
+    }
+    .title {
+        height: 40vh;
+    }
+    .about, .skills {
+        width: 100%;
+    }
+}
+
+/*Малые девайсы («ландшафтные», < 768px)*/
+@media only screen and (max-width: 767.98px) {
+    .title {
+        height: 40vh;
+    }
+    .about, .skills {
+        width: 100%;
+    }
+}
+
+/*Малые девайсы («ландшафтные телефоны», >= 576px)*/
+@media only screen and (max-width: 575.98px) {
+    .title {
+        height: 40vh;
+    }
+    .about, .skills {
+        width: 100%;
+    }
+}
+
+
+/*Экстрамалые девайсы («телефоны», < 576px)*/
+@media only screen and (max-width: 575.98px) {
+    .title {
+        height: 40vh;
+    }
+}

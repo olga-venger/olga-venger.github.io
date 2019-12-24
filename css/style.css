@@ -1,0 +1,141 @@
+body {
+    background: wheat;
+    font-family: 'Poiret One', cursive;
+}
+
+
+h1, h2, h3, h4, p, div, ul, li, a, span, header, footer {
+    font-family: 'Poiret One', cursive;
+}
+
+h1, h2, h3, h4 {
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.title {
+    background-image: url("../img/img_3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h1 {
+    font-size: 60px;
+}
+
+.title h4 {
+    font-size: 30px;
+}
+
+a.nav-link {
+    font-size: 24px;
+}
+
+a.nav-link:after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+a.nav-link:hover::after {
+    transform: scale(1);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+
+.about, .skills {
+    width: 50%;
+}
+
+.about ul {
+    padding-left: 1em;
+    list-style: circle;
+}
+
+div.card {
+    width: 20%;
+    margin-right: 5%;
+    border: 0;
+}
+
+div.card-body {
+    padding: 0;
+}
+
+.card-title {
+    margin-top: 5%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.portfolio {
+    background-color: lightgray;
+}
+
+.img-wrapper {
+    width: 30%;
+    margin-right: 2%;
+    /*height: auto;*/
+    /*background-color: darkgrey;*/
+    /*display: none;*/
+}
+
+.img-wrapper > img {
+    width: 100%;
+    border: 1px solid darkgrey;
+    border-radius: 20px;
+}
+
+/*.img_wrap {*/
+/*    !*position: absolute;*!*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: rgba(109,128,144,.7);*/
+/*    z-index: 100;*/
+/*}*/
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    background-color: #404040;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: gray;
+    text-decoration: underline;
+}
