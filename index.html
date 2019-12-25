@@ -15,114 +15,105 @@
 <body>
 
 <header>
-    <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about">Обо мне <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Навыки</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Портфолио</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacts">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Навыки</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
 <section class="title">
     <h1>Venger Olga</h1><br/>
     <h4>Front-end developer</h4>
-    <!--                <p>Здравствуйте! Меня зовут Ольга и я начитающий Front-end developer. Я начала </p>-->
 </section>
-<section class="resume" id="about">
+<section class="resume">
     <div class="container d-flex flex-wrap">
-        <div class="about">
+        <div class="about" id="about">
             <h3>Обо мне</h3>
-            <p>Я самостоятельно изучаю web-разработку. Мне нравится разрабатывать пользовательские интерфейсы с
-                помощью React. Всегда готова осваивать новые технологии и улучшать текущие навыки. Пока в поисках места
-                где смогу применить свои знания в области программирования, научится чему-то новому и стать частью крутой
-                команды.
+            <p> Закончила бакалавриат по специальности бизнес-информатика в НИУ МАИ, защитив диплом по теме "Создание
+                сервиса автоматического выделения информации для поисковой оптимизации веб-ресурса".
+                Разрабатывая программное обеспечение, являющееся частью моего диплома, ознакомилась с техникой SEO
+                оптимизации содержимого сайтов и практикой написания серверной и клиентской
+                части приложения при помощи фреймворка Java Spring.</p>
+            <p>
+                Затем занялась самообучением в области разработки визуального содержимого сайтов и web приложений,
+                постепенно осваивая необходимые для этого современные технологии, перечень которых приведена здесь же.
+                На данный момент хочу применить полученные мною знания и умения в области front-end разработки. Я люблю
+                создавать что-то красивое, качественное, функциональное и полезное, готова осваивать новые технологии и
+                методологии. Легко вливаюсь в команду, неконфликтна и трудолюбива.
+                С примерами моих работ можно ознакомиться в <a href="#portfolio">портфолио</a>.
             </p>
-            Личные качества:
-            <ul>
-                <li>Быстрая обучаемость</li>
-                <li>Ответственность
-                <li>Честность</li>
-                <li>Гибкость мышления</li>
-            </ul>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
             <h3>Мои навыки</h3>
             <div class="d-flex flex-wrap">
-                <div class="card text-center">
+                <div class="card ">
                     <img src="./img/logo/HTML5.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">HTML 5</p>
+                        <p class="card-title text-center">HTML 5</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/css-logo.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">CSS 3</p>
+                        <p class="card-title text-center">CSS 3</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/Javascript.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">Java Script 6</p>
+                        <p class="card-title text-center">Java Script 6</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/Boostrap_logo.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">Bootstrap 4</p>
+                        <p class="card-title text-center">Bootstrap 4</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/react.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">React JS</p>
+                        <p class="card-title text-center">React JS</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/redux.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">Redux</p>
+                        <p class="card-title text-center">Redux</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/webpack.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">Webpack</p>
+                        <p class="card-title text-center">Webpack</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/БЭМ.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">БЭМ</p>
+                        <p class="card-title text-center">БЭМ</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/Git-Icon-1788C.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">GIT</p>
+                        <p class="card-title text-center">GIT</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card">
                     <img src="./img/logo/sql-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-title">SQL</p>
+                        <p class="card-title text-center">SQL</p>
                     </div>
                 </div>
             </div>
@@ -133,13 +124,16 @@
     <div class="container">
         <h3>Портфолио</h3>
         <div class="portfolio-gallery d-flex flex-wrap">
-            <a class="img-wrapper" href="./img/portfolio/AXIT.png">
+            <!--            <a class="img-wrapper" href="./img/portfolio/AXIT.png">-->
+            <a class="img-wrapper" href="portfolio/axit/index.html">
+
                 <!--                <div class="img_wrap">-->
                 <!--                    <p>Bootstrap</p>-->
                 <!--                </div>-->
                 <img src="img/portfolio/AXIT_preview.png">
             </a>
-            <a class="img-wrapper" href="./img/portfolio/Minimo.png">
+<!--            <a class="img-wrapper" href="./img/portfolio/Minimo.png">-->
+            <a class="img-wrapper" href="portfolio/minimo/index.html">
                 <div>
                     <!--                    <p>Bootstrap</p>-->
                 </div>

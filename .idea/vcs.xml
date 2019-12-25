@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/portfolio/axit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/portfolio/minimo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projects/axit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projects/minimo" vcs="Git" />
   </component>
 </project>
