@@ -7,6 +7,10 @@
     .about, .skills {
         width: 100%;
     }
+
+    .skill-cards > .card {
+        width: 20%;
+    }
 }
 
 /*Малые девайсы («ландшафтные», < 768px)*/
@@ -32,10 +36,6 @@
         margin: auto;
     }
 
-    .skill-cards > .card {
-        width: 25%;
-        margin: auto;
-    }
 
     .portfolio-gallery > .card {
         width: 50%;
