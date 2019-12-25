@@ -14,24 +14,35 @@
     .title {
         background-image: url("../img/bg-md.jpg");
     }
-    .title h1{
+
+    .title h1 {
         font-size: 35px;
     }
-   h3{
-       font-size: 20px;
-   }
-    .title h4{
+
+    h3 {
         font-size: 20px;
     }
+
+    .title h4 {
+        font-size: 20px;
+    }
+
     .about, .skills {
         width: 100%;
         margin: auto;
     }
-    .card {
+
+    .skill-cards > .card {
         width: 25%;
         margin: 1%;
     }
+
+    .portfolio-gallery > .card {
+        width: 50%;
+        margin: auto;
+    }
 }
+
 
 /*Экстрамалые девайсы («телефоны», < 576px)*/
 @media only screen and (max-width: 575.98px) {

@@ -90,13 +90,13 @@ section {
     list-style: circle;
 }
 
-div.card {
+.skill-cards > .card {
     width: 20%;
     margin-right: 2%;
     border: 0;
 }
 
-div.card-body {
+.skill-cards .card-body {
     padding: 0;
 }
 
@@ -106,25 +106,33 @@ div.card-body {
     font-weight: bold;
 }
 
-
 .portfolio {
     background-color: lightgray;
 }
 
-.img-wrapper {
+.portfolio-gallery > .card {
     width: 30%;
-    margin-right: 2%;
-    /*height: auto;*/
-    /*background-color: darkgrey;*/
-    /*display: none;*/
-}
-
-.img-wrapper > img {
-    width: 100%;
+    margin: 1%;
     border: 1px solid darkgrey;
     border-radius: 20px;
+    background-color: white;
 }
 
+.portfolio-gallery  img {
+    border-radius: 15px;
+    width: 100%;
+
+}
+.portfolio-gallery .btn {
+    color: white;
+    border: 0;
+    background-color: darkgrey;
+}
+
+.portfolio-gallery .btn:hover {
+    color: white;
+    background-color: #404040;
+}
 /*.img_wrap {*/
 /*    !*position: absolute;*!*/
 /*    top: 0;*/

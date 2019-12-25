@@ -17,21 +17,21 @@
 <body>
 
 <header>
-        <nav class="navbar navbar-expand-lg navbar-light text-right">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Навыки</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Портфолио</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light text-right">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Навыки</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
 <section class="title">
     <div class="container">
@@ -59,7 +59,7 @@
         </div>
         <div class="skills" id="skills">
             <h3>Мои навыки</h3>
-            <div class="cards d-flex flex-wrap">
+            <div class="skill-cards d-flex flex-wrap">
                 <div class="card">
                     <img src="./img/logo/HTML5.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -128,21 +128,24 @@
     <div class="container">
         <h3>Портфолио</h3>
         <div class="portfolio-gallery d-flex flex-wrap">
-            <!--            <a class="img-wrapper" href="./img/portfolio/AXIT.png">-->
-            <a class="img-wrapper" href="./portfolio/axit/index.html">
-
-                <!--                <div class="img_wrap">-->
-                <!--                    <p>Bootstrap</p>-->
-                <!--                </div>-->
-                <img src="img/portfolio/AXIT_preview.png">
-            </a>
-            <!--            <a class="img-wrapper" href="./img/portfolio/Minimo.png">-->
-            <a class="img-wrapper" href="./portfolio/minimo/index.html">
-                <div>
-                    <!--                    <p>Bootstrap</p>-->
-                </div>
+            <div class="card text-center" style="width: 18rem;">
                 <img src="img/portfolio/Minimo_preview.png">
-            </a>
+                <div class="card-body">
+                    <h5 class="card-title">Minimo</h5>
+                    <p class="card-text">Лендинг на Bootstrap 4</p>
+                    <a href="https://github.com/olga-venger/minimo" class="btn">Код</a>
+                    <a href="./portfolio/minimo/index.html" class="btn">Просмотр</a>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <img src="img/portfolio/AXIT_preview.png">
+                <div class="card-body">
+                    <h5 class="card-title">AXIT</h5>
+                    <p class="card-text">Лендинг на Bootstrap 4</p>
+                    <a href="https://github.com/olga-venger/Axit" class="btn">Код</a>
+                    <a href="./portfolio/axit/index.html" class="btn">Просмотр</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -157,7 +160,7 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
