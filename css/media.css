@@ -34,12 +34,13 @@
 
     .skill-cards > .card {
         width: 25%;
-        margin: 1%;
+        margin: auto;
     }
 
     .portfolio-gallery > .card {
         width: 50%;
         margin: auto;
+        margin-bottom: 1%;
     }
 }
 
