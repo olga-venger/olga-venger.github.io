@@ -1,10 +1,10 @@
 body {
-    background: wheat;
+    min-width: 320px;
+    font-size: 12px;
+    background: white;
     /*font-family: 'Poiret One', cursive;*/
     font-family: 'Montserrat Alternates', sans-serif;
 }
-
-
 
 h1, h2, h3, h4 {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -18,11 +18,7 @@ h1, h2, h3, h4 {
     width: 100%;
     text-align: center;
 }
-p {
-    text-indent: 20px;
-    text-align: justify;
-    font-size: 16px;
-}
+
 
 header {
     position: absolute;
@@ -31,7 +27,7 @@ header {
 }
 
 .title {
-    background-image: url("../img/img_3.jpeg");
+    background-image: url("../img/bg-lg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -79,6 +75,12 @@ section {
     margin-right: 5%;
 }
 
+.about > p {
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
 .skills {
     width: 35%;
 }
@@ -90,7 +92,7 @@ section {
 
 div.card {
     width: 20%;
-    margin-right: 5%;
+    margin-right: 2%;
     border: 0;
 }
 

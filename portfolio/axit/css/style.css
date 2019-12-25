@@ -480,10 +480,7 @@ footer .social-media-brands > a {
 }
 
 @media only screen and (max-width: 767px) {
-    .promo > .container,
-    .features > .container,
-    .sub-list-section > .container,
-    .picture-section > .container {
+   .container {
         flex-wrap: wrap;
     }
 
